@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
    name: env-config
 data:
-   POSTGRES_HOST: prj3-udacity-db.coxqf8thomnr.us-east-1.rds.amazonaws.com
+   POSTGRES_HOST: postgres.coxqf8thomnr.us-east-1.rds.amazonaws.com
    POSTGRES_DB: postgres
    AWS_BUCKET: prj3-udacity
    AWS_REGION: us-east-1
